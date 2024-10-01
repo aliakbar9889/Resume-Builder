@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="layout.css">
+</head>
+
+<body>
+    <header class="">
+        <h1><b></b></h1>
+
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2><b><i>ABOUT</i></b></h2>
+            <form id="aboutForm">
+                <label for="name">NAME:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="address">EMAIL ADDRESS:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="phoneNumber">PHONE NUMBER:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+            </form>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements">
+            <h2><B><I>EDUCATION</I></B></h2>
+            <form id="education">
+                <label for="education">EDUCATION:</label>
+                <input type="text" id="achievementTitle" name="achievementTitle" required>
+            </form>
+            <ul id="achievementsList"></ul>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2><b><i>EXPERIENCE</i></b></h2>
+            <form id="experienceForm">
+                <label for="companyName">WORK EXPERIENCE:</label>
+                <input type="text" id="companyName" name="companyName" required>
+            </form>
+            <ul id="experienceList"></ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2><b><i>SKILLS</i></b></h2>
+            <form id="skillsForm">
+                <label for="skill">SKILLS:</label>
+                <input type="text" id="skill" name="skill" required>
+                <button type="button" id="addProject"><i><b>GENERATE RESUME</b></i></button>
+            </form>
+            <ul id="skillsList"></ul>
+        </section>
+    </main>
+    </form>
+
+
+    <main>
+        <!-- ... rest of your form ... -->
+
+        <!-- CV Display Section -->
+        <section id="cvSection">
+            <h2><b><i>YOUR CV</i></b></h2>
+            <div id="cvOutput"></div>
+        </section>
+    </main>
+
+    <script src="content.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.text{
+    font-size: 1.4rem;
+}
+.grey{
+    color: rgb(83, 79, 79);
+}
+.hero-image img{
+    position: relative;
+    margin-top: 0%;
+}
+.hero-image img a:hover{
+    color: cyan;
+    transition: .3s;
+}
+    
+
+.hero{
+    color: rgb(2, 2, 77);
+}
+.navbar .menu-icon img {
+    height: 30px;
+    cursor: pointer;
+    background: none;
+    border: none; /* Border bhi hata diya */
+}
+.yellow{
+    color: yellow
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(14, 14, 148);
+    color: #fff;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar .menu-icon img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #fff;
+}
+
+.hero-content {
+    max-width: 50%;
+    
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.cta-button2{
+   color: #fff;
+   text-decoration: none;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 2;
+    color: #666;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: rgb(14, 14, 148);
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+.cta-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.cta-button:hover {
+    background-color: #ff2e00;
+}
+
+.hero-image img {
+    max-width: 500px;
+    border-radius: 10px;
+}
+.menu-icon .icon a:hover{
+    color: yellow;
+    transition: .3s;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Light grey background */
+}
+
+/* Image styling */
+.images {
+    display: flex;
+    gap: 20px;
+    size: 20%; /* Space between images */
+}
+
+.image {
+    width: 370px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Content section styling */
+.content {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+.para p{
+    gap: 20;
+    width: 200px;
+    font-size: 1.4rem;
+}
+.images img a:hover{
+    color: yellow;
+    transition: .5s;
+}
+/* Footer styling */
+.footer {
+    background-color:rgb(31, 1, 78);
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
